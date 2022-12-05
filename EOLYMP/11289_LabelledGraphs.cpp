@@ -11,7 +11,7 @@ ULL read(){
 	while(c==' ' or c=='\n') c =gc();
 	if(c=='-'){ne = 1;c = gc();}
 	while(c>='0' and c<='9'){
-		value = (value<<3)+(value<<1)+c-'0';c = gc();}
+		value = (value<<3)+(value<<1)+c-'0';c = gc();} 
 	if(ne) value*=-1;
 	return value;
 }
