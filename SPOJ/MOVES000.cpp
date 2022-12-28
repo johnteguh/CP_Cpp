@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <algorithm>
 #define MX 250001
-#define gc getchar_unlocked
+#define gc getchar//_unlocked
 int ln[MX],rn[MX], sz[MX], sh[MX];
 char vl[MX];
 int read(){
